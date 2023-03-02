@@ -1,0 +1,36 @@
+.interesting {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+  }
+
+  h6 {
+    font-size: medium;
+    font-weight: 200;
+  }
+
+  .label {
+    font-size: 30px;
+    color: blue;
+  }
+
+  .label:hover {
+    font-size: 50px;
+    color: green
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+  }
+  
+  .grid-item {
+    text-align: center;
+    background-color: #ccc;
+    padding: 10px;
+  }
+
+  #C1 {
+    font-size: 18px;
+  }
