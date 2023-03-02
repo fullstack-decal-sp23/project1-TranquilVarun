@@ -4,10 +4,13 @@
         <meta name="author" content="Varun Verma">
         <meta name="description" content="Varun Verma's Personal Website">
         <link rel="stylesheet" href="styles.css">
-        <script>
-            let d = new Date();
-            alert("Today's date is " + d);
-        </script>
+        <script type="text/javascript">
+
+            function handleIt() {
+              alert("hello");
+            }
+      
+          </script>
     </head>
     <body>
         <h1 class="label">TranquilVarun</h1>
@@ -17,6 +20,9 @@
         </div>
         <h2 id="C1">About</h2>
         <h6>My name is Varun Verma, a freshman at UC Berkeley studying Computer Science and Business Administration. I am originially from Wichita, Kansas, and this is my first time in California. I am excited to be in the Full Stack DeCal!</h6>
+        <form name="myform" action="javascript:handleIt()">
+            <input name="Submit"  type="submit" value="Try my JavaScript Form"/>
+          </form>
         <h2 id="C1">Work</h2>
         <h4>School</h4>
         <h5>Classes</h5>
